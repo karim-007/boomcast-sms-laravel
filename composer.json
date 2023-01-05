@@ -1,0 +1,39 @@
+{
+    "name": "karim007/boomcast-sms-laravel",
+    "description": "This is for boomcast sms service for laravel",
+    "type": "library",
+    "keywords": [
+        "boomcast sms",
+        "boomcast sms laravel",
+        "boomcast sms for laravel",
+        "boomcast bulk sms"
+    ],
+    "require": {
+        "php": "^7.4|^8.0|^8.1",
+        "illuminate/support": "~6|~7|~8|~9",
+        "guzzlehttp/guzzle": "^7|^7.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Karim007\\BoomcastSmsLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md abdul karim",
+            "email": "karim.cse007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karim007\\BoomcastSmsLaravel\\BoomcastServiceProvider"
+            ],
+            "aliases": {
+                "DevTools": "Karim007\\BoomcastSmsLaravel\\BoomcastSmsLaravel"
+            }
+        }
+    }
+}
