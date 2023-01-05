@@ -64,7 +64,8 @@ class BoomCastSmsController extends Controller
     }
 
     public function bulkSms()
-    {
+    {   
+        //bulk sms maximum 20 phone number at a time
         return BoomCastSms::bulkSms(['01521XXXXXX','88012345678'],'This is test sms');
     }
 }
