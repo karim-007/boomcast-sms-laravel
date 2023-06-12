@@ -11,6 +11,7 @@
 - Laravel >= 6
 - illuminate/support >= 6
 - guzzlehttp/guzzle >= 7
+---
 
 ## Installation
 
